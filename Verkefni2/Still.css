@@ -1,0 +1,56 @@
+*{
+    -webkit-box-sizing: ;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+section {
+float: left;
+width: 46%;
+}
+aside {
+  float: right;
+  width: 48%;
+}  
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+.bigL{
+    float: left;
+    font-size: 40px;
+}
+.imgR{
+    float: right;
+}
+body {
+  border: black 1em;
+  display: flexbox;
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+.athugid {
+  align-items: center;
+}
