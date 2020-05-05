@@ -1,0 +1,139 @@
+*, *:before, *:after {
+box-sizing: border-box; 
+}
+body {
+height: 50%;
+width: 100%;
+display: grid;
+grid-template-areas: 
+"header"
+"midja"
+"vinstri"
+"haegri"
+"footer"
+"topnav" ;
+}
+
+.header {
+grid-area: header;
+background: skyblue; 
+
+}
+.footer {
+grid-area: footer;
+background: gold; 
+}
+.midja {
+grid-area: midja;
+background: blueviolet; 
+}
+.vinstri {
+grid-area: vinstri;
+background: aquamarine; 
+}
+.haegri {
+grid-area: haegri;
+background: red; 
+}
+.topnav {
+grid-area: topnav;
+background: burlywood; 
+}
+
+
+@media screen and (min-width: 37.5em) 
+{
+    body{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.7fr 0.8fr;
+        gap: 1px 1px;
+        grid-template-areas: "header header header header" "main main main main" "fotur fotur fotur fotur";
+        }
+        .main {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1px 1px;
+        grid-template-areas: "vinstri midja haegri" "vinstri midja haegri";
+        grid-area: main;
+        }
+        .fotur {
+        height: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 0fr 0fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 1px 1px;
+        grid-template-areas: "footer footer footer" "topnav topnav topnav";
+        grid-area: fotur;
+        }
+}
+
+@media screen and (min-width: 48em) {
+    body{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.7fr 0.8fr;
+        gap: 1px 1px;
+        grid-template-areas: "header header header header" "main main main main" "fotur fotur fotur fotur";
+        }
+        .main {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1px 1px;
+        grid-template-areas: "vinstri midja haegri" "vinstri midja haegri";
+        grid-area: main;
+        }
+        .fotur {
+        height: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 0fr 0fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        gap: 1px 1px;
+        grid-template-areas: "footer footer footer" "topnav topnav topnav";
+        grid-area: fotur;
+        }
+}
+
+@media screen and (min-width: 60em) {
+body{
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 0.5fr 0.7fr 0.8fr;
+gap: 1px 1px;
+grid-template-areas: "header header header header" "main main main main" "fotur fotur fotur fotur";
+}
+.main {
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns: 0.5fr 1.5fr 0.5fr;
+grid-template-rows: 1fr 1fr;
+gap: 1px 1px;
+grid-template-areas: "vinstri midja haegri" "vinstri midja haegri";
+grid-area: main;
+}
+.fotur {
+height: 50%;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 0fr 0fr;
+grid-template-rows: 0.5fr 0.5fr;
+gap: 1px 1px;
+grid-template-areas: "footer footer footer" "topnav topnav topnav";
+grid-area: fotur;
+}
+}                
