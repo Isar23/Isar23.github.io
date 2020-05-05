@@ -39,6 +39,10 @@ background: red;
 grid-area: topnav;
 background: burlywood; 
 }
+.topmenu {
+grid-area: topmenu;
+background: burlywood; 
+}
 
 
 @media screen and (min-width: 37.5em) 
@@ -59,7 +63,7 @@ background: burlywood;
         grid-template-columns: 0.5fr 1.5fr 0.5fr;
         grid-template-rows: 1fr 1fr;
         gap: 1px 1px;
-        grid-template-areas: "vinstri midja haegri" "vinstri midja haegri";
+        grid-template-areas: "midja vinstri haegri" "midja vinstri haegri";
         grid-area: main;
         }
         .fotur {
@@ -82,7 +86,7 @@ background: burlywood;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.5fr 0.7fr 0.8fr;
         gap: 1px 1px;
-        grid-template-areas: "header header header header" "main main main main" "fotur fotur fotur fotur";
+        grid-template-areas: "topmenu topmenu topmenu topmenu" "header header header header" "main main main main" "fotur fotur fotur fotur";
         }
         .main {
         height: 100%;
@@ -91,7 +95,7 @@ background: burlywood;
         grid-template-columns: 0.5fr 1.5fr 0.5fr;
         grid-template-rows: 1fr 1fr;
         gap: 1px 1px;
-        grid-template-areas: "vinstri midja haegri" "vinstri midja haegri";
+        grid-template-areas: "haegri midja midja" "vinstri midja midja";
         grid-area: main;
         }
         .fotur {
@@ -101,7 +105,7 @@ background: burlywood;
         grid-template-columns: 1fr 0fr 0fr;
         grid-template-rows: 0.5fr 0.5fr;
         gap: 1px 1px;
-        grid-template-areas: "footer footer footer" "topnav topnav topnav";
+        grid-template-areas: "footer footer footer" "footer footer footer";
         grid-area: fotur;
         }
 }
