@@ -37,7 +37,7 @@ vertical-align:middle;
 }
 
 body {
-	color:#222222;
+	color: #ccc;
 	font-family: Verdana;
 	background-color:#000000;
 }
@@ -105,12 +105,7 @@ h2.news-head
 	color:#9BCD32;
 }
 
-h3 {
-	color: #f0e68c;
-	padding:30px 0 10px 0;
-	font-size:18px;
-	font-family:Georgia,serif;
-}
+
 
 h4 {
 	color: #f0e68c;
@@ -124,10 +119,7 @@ a img
 	border: none;
 }
 
-a:link,a:active,a:visited {
-	color: skyblue;
-	text-decoration: none;
-}
+
 
 .content a.linkButton,.content a.linkButton:active,.content a.linkButton:link,.content a.linkButton:visited,.content a.linkButton:link
 {
@@ -149,13 +141,13 @@ strong
 {
 	margin:0 auto;
 	width:990px;
-	background-color:#111;
+	background-color:#1a1a1a;
 	background:url("/img/bricks-background.jpg");
 }
 
 .header
 {
-	background: #111;
+	background: #1a1a1a;
 	position:relative;
 }
 
@@ -181,17 +173,20 @@ strong
 {
 	outline:none;
 }
-
+@media screen and (min-width: 37.5em,48em,60em) 
+{
 .content {
 	color:#DDD;
 	float:  right;
 	margin:0 10px 0 0;
 	padding:10px;
 	background-color:#1a1a1a;
-	border:1px solid #333;
+	border:1px solid #2d2d2d;
 	width:767px;
 	font-size:10pt;
 	font-family:Tahoma,Verdana,serif;
 	line-height:20px;
 	letter-spacing:0.3pt;
+}
+
 }
