@@ -1,0 +1,161 @@
+  table.darkTable {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 3px solid #000000;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 9px 9px;
+  }
+  table.darkTable tbody td {
+    font-size: 13px;
+    color: #E6E6E6;
+  }
+  table.darkTable tr:nth-child(even) {
+    background: #888888;
+  }
+  table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+  }
+  table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+  }
+  table.darkTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.darkTable tfoot {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background: #000000;
+    background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+    border-top: 1px solid #4A4A4A;
+  }
+  table.darkTable tfoot td {
+    font-size: 12px;
+  }
+  table.darkTable tfoot .links {
+    text-align: center;
+  }
+  table.darkTable tfoot .links a{
+    display: inline-block;
+    background: #29F6FF;
+    color: #4A4A4A;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://wallpaperaccess.com/full/1567666.png") center center repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: "Spartan";
+  color: white;
+}
+
+.contact-us {
+  padding: 50px 100px;
+  border-bottom: 10px solid black;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: "Spartan";
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 24pt;
+  font-style: italic;
+  margin: 0 0 0.5em 0;
+}
+
+span {
+  font-size: 8pt;
+}
+
+em {
+  color: #f45702;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: white;
+  padding-left: 5px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid white;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+button:hover {
+  background: inherit;
+  color: #f45702;
+  border-bottom: 2px solid #f45702;
+}
+
+::selection {
+  background: #ffc7b8;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
