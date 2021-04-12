@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    id="svg1"
+    sodipodi:docname="yahoo_protocol.svg"
+    viewBox="0 0 60 60"
+    sodipodi:version="0.32"
+    _SVGFile__filename="oldscale/apps/yahoo_protocol.svg"
+    version="1.0"
+    y="0"
+    x="0"
+    inkscape:version="0.40"
+    sodipodi:docbase="/home/danny/work/flat/SVG/mono/scalable/apps"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="0"
+      pagecolor="#ffffff"
+      inkscape:window-height="699"
+      inkscape:zoom="5.4663694"
+      inkscape:window-x="0"
+      borderopacity="1.0"
+      inkscape:current-layer="svg1"
+      inkscape:cx="45.381607"
+      inkscape:cy="9.0216448"
+      inkscape:window-width="1024"
+      inkscape:pageopacity="0.0"
+  />
+  <g
+      id="g1731"
+      style="stroke:#ffffff"
+      transform="translate(-50)"
+    >
+    <path
+        id="path1101"
+        style="stroke-linejoin:round;stroke:#ffffff;stroke-linecap:round;stroke-width:8.125;fill:none"
+        d="m65.125 33.281c-4.715 0-8.531 3.847-8.531 8.563 0 2.748 1.387 5.062 3.406 6.625-2.352 1.493-3.969 3.961-5.031 6.656h20.312c-1.006-2.713-2.569-5.193-4.843-6.75 1.936-1.566 3.25-3.848 3.25-6.531 0-4.716-3.848-8.563-8.563-8.563z"
+    />
+    <path
+        id="path1103"
+        style="stroke-linejoin:round;stroke:#ffffff;stroke-linecap:round;stroke-width:8.4961;fill:none"
+        d="m30.08 3.8441c-14.61 0-26.469 5.8258-26.469 13-0.0001 7.174 11.859 13 26.469 13 2.985 0 5.822-0.302 8.5-0.75-2.422 11.732-10.563 16.125-10.563 16.125s8.232 2.742 18.156-9.219c3.501-4.552 4.477-8.465 4.875-11.281 3.413-2.188 5.5-4.908 5.5-7.875 0-7.1741-11.859-13-26.468-13z"
+        transform="matrix(.95632 0 0 .95632 51.234 1.1935)"
+    />
+  </g
+  >
+  <g
+      id="g1095"
+      transform="matrix(.95632 0 0 .95632 .99068 .95017)"
+    >
+    <path
+        id="path973"
+        style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-width:3.5036;fill:#ffffff"
+        d="m9.9062 49.226c-3.0084 1.602-4.9621 4.639-6.25 7.907h22.782c-1.182-3.189-2.991-6.194-5.75-7.907-3.103-0.135-7.005 0-10.782 0z"
+        transform="matrix(.93268 0 0 .93268 .75511 3.3682)"
+    />
+    <path
+        id="path974"
+        style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-width:4.5092;fill:#ffffff"
+        d="m31.85 22.301c0 6.804-5.522 12.327-12.326 12.327s-12.326-5.523-12.326-12.327c-0.0002-6.804 5.522-12.326 12.326-12.326 6.804 0.0001 12.326 5.522 12.326 12.326z"
+        transform="matrix(.72468 0 0 .72468 .64024 26.584)"
+    />
+    <path
+        id="path975"
+        style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-width:3.2677;fill:#ffffff"
+        d="m30.08 3.8441c-14.61 0-26.469 5.8258-26.469 13-0.0001 7.174 11.859 13 26.469 13 2.985 0 5.822-0.302 8.5-0.75-2.422 11.732-10.563 16.125-10.563 16.125s8.232 2.742 18.156-9.219c3.501-4.552 4.477-8.465 4.875-11.281 3.413-2.188 5.5-4.908 5.5-7.875 0-7.1741-11.859-13-26.468-13z"
+        transform="translate(.25448 .25448)"
+    />
+    <path
+        id="path835"
+        style="fill:#000000"
+        d="m35.775 19.115v-8.621c0-0.454 0.148-0.8187 0.443-1.0927 0.296-0.274 0.678-0.411 1.147-0.411 0.454 0 0.833 0.137 1.136 0.411s0.454 0.6387 0.454 1.0927v8.621c0 0.454-0.151 0.822-0.454 1.103s-0.682 0.422-1.136 0.422c-0.469 0-0.851-0.137-1.147-0.411-0.295-0.281-0.443-0.653-0.443-1.114zm1.59 6.338c-0.476 0-0.883-0.173-1.222-0.519s-0.509-0.757-0.509-1.233 0.17-0.883 0.509-1.222 0.746-0.509 1.222-0.509 0.883 0.17 1.222 0.509 0.509 0.746 0.509 1.222-0.17 0.887-0.509 1.233-0.746 0.519-1.222 0.519zm-11.303-1.774v-5.96l-4.186-5.96c-0.202-0.303-0.303-0.634-0.303-0.995 0-0.461 0.147-0.8507 0.443-1.168 0.303-0.3173 0.685-0.4759 1.147-0.4759 0.281 0 0.548 0.0613 0.8 0.1839 0.253 0.1226 0.444 0.2848 0.573 0.4867l3.191 4.6733 3.191-4.6733c0.13-0.2019 0.321-0.3641 0.574-0.4867 0.252-0.1226 0.519-0.1839 0.8-0.1839 0.31 0 0.584 0.0757 0.822 0.2271 0.245 0.1443 0.433 0.3426 0.562 0.5949 0.138 0.2529 0.206 0.5269 0.206 0.8219 0 0.361-0.101 0.692-0.303 0.995l-4.197 5.96v5.96c0 0.469-0.14 0.858-0.422 1.169-0.274 0.31-0.685 0.465-1.233 0.465-0.555 0-0.973-0.155-1.254-0.465-0.274-0.311-0.411-0.7-0.411-1.169z"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
